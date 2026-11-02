@@ -1,0 +1,5 @@
+# Direct dependencies pinned to the versions used for release verification.
+numpy==2.5.4
+pandas==2.3.3
+scikit-learn==1.8.0
+openpyxl==3.1.5

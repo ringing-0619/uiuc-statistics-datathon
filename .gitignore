@@ -1,0 +1,39 @@
+# All real inputs and generated results stay local.
+/data/
+/outputs/
+/mlruns/
+/mlartifacts/
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.log
+
+# Credentials and local environments.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Compiled code, tests and operating-system metadata.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.test-tmp/
+.verification/
+.DS_Store
+Thumbs.db
